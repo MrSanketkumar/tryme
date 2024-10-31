@@ -1,12 +1,22 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"tryme/sub"
+)
 
 func main()  {
-	fmt.Print("hello world")
-	fmt.Println("Hello world feature/bugfix")
+	result:=add(1,2)
+	fmt.Println("the result of the sum is:",result)
+	subResult:=sub.Sub(1,2)
+	fmt.Println("the sub is :",subResult)
+	fmt.Println("demo")
 }
 
-func a(){
-	
+
+
+
+func add(a,b int)int{
+	return a+b
 }
+
