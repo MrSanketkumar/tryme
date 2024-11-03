@@ -13,8 +13,20 @@ func main() {
 	fmt.Println("demo")
 }
 
+func add(a, b int) int {
+	if validation(a, b) {
+		return a + b
+	}
+	return 0
+}
 
 func testing() bool {
 	return true
 }
 
+func validation(a, b int) bool {
+	if a > 0 && b > 0 {
+		return true
+	}
+	return false
+}
