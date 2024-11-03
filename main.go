@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	result := add(10, -2)
+	result := add(10, 0)
 	fmt.Println("the result of the sum is:", result)
 	subResult := sub.Sub(1, 2)
 	fmt.Println("the sub is :", subResult)
