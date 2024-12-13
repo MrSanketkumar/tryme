@@ -1,13 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
-func main()  {
-	fmt.Print("hello world")
-	fmt.Println("Hello world feature/bugfix")
-	nj
-}
+func main() {
 
-func a(){
-	
+	fmt.Println("hello world")
+
 }
